@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<h2>ProgressSoft Deals - Upload Status Success</h2>
+
+   	<p th:text="${session.errordetails}" th:unless="${session == null}"></p>
+	<p th:text="'File Name: ' + ${fileNameDetailsBean.fileName}" />
+    <p th:text="'Success Count: ' + ${fileNameDetailsBean.success_Count}" />
+    <p th:text="'Failure Count: ' + ${fileNameDetailsBean.failure_Count}" />
+     <p th:text="'Processing Time(in seconds): ' + ${fileNameDetailsBean.processingTime}" />
+      <br/><br/>
+    <a href="/">Go to Home Page</a>
+    <br/>
+ 
+</body>
+</html>

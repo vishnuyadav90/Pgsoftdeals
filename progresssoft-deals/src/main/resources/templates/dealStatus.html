@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>ProgressSoft Deals Details</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+
+	<h2>ProgressSoft Deals Details</h2>
+	
+    <p th:text="'File Name: ' + ${fileNameDetailsBean.fileName}" />
+    <p th:text="'Success Count: ' + ${fileNameDetailsBean.success_Count}" />
+    <p th:text="'Failure Count: ' + ${fileNameDetailsBean.failure_Count}" />
+   
+    <br/><br/>
+    <a href="/">Go to Home Page</a>
+    <br/>
+</body>
+</html>

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: progresssoft-deals
+Implementation-Version: 1.0
+Built-By: sravani
+Implementation-Vendor-Id: com.progresssoft.deals
+Build-Jdk: 1.8.0_144
+Implementation-URL: http://projects.spring.io/spring-boot/progresssoft
+ -deals/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

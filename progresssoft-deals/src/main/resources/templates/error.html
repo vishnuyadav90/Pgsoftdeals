@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>ProgressSoft Error Deals Details</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h2>ProgressSoft Deals Details</h2>
+    <p th:text="${errordetails}" />
+    
+     <p th:text="${session.errordetails}" th:unless="${session == null}"></p>
+     <br/><br/>
+    <a href="/">Go to Home Page</a>
+    <br/>
+     
+</body>
+</html>

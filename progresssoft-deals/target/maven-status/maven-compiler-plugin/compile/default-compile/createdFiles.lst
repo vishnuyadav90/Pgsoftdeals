@@ -1,0 +1,16 @@
+com\progresssoft\deals\repo\FileCurrencyCountRepository.class
+com\progresssoft\deals\bean\FileNameDetailsBean.class
+com\progresssoft\deals\bean\DealDetailsBean.class
+com\progresssoft\deals\validator\DealsValidator.class
+com\progresssoft\deals\service\DealsService.class
+com\progresssoft\deals\controller\UploadController.class
+com\progresssoft\deals\bean\FileCurrencyCountDetails.class
+com\progresssoft\deals\controller\GetDealStatusController.class
+com\progresssoft\deals\bean\FailureDealDetailsBean.class
+com\progresssoft\deals\service\impl\DealsServiceImpl.class
+com\progresssoft\deals\repo\DealsRepository.class
+com\progresssoft\deals\repo\FileNameDetailsRepository.class
+com\progresssoft\deals\util\DealsUtil.class
+com\progresssoft\deals\SpringBootWebApplication.class
+com\progresssoft\deals\repo\DealsFailureRepository.class
+com\progresssoft\deals\controller\GlobalExceptionHandler.class
